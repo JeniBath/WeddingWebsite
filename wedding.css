@@ -1,0 +1,67 @@
+html, body,div {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #ffc300;
+  background-color: #581845;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+
+.h1, .h2, h1, h2,{
+  color: white;
+  text-align: center;
+}
+
+#location{
+  padding: 20px;
+  background-color: #B3B6B7;
+}
+
+
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 55px;
+  text-align: center;
+  background-color: #581845;
+}
+
+#intro {
+    width: 100%;
+    height: 95%;
+    background-image: url('../img/GRAD.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#map{
+  height: 150px;
+  width: 100%;
+  float: right;
+}
+
+@media only screen and (min-width:970px) {
+  #map{
+    height: 400px;
+  }
+}
+
+.location-address{
+  text-align: center;
+}
+
+@media only screen and (min-width:970px) {
+  .location-address{
+    text-align: left;
+  }
+}
