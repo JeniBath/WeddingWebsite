@@ -8,16 +8,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link{
   color: #ffc300;
   background-color: #581845;
 }
-
-.row{
-  height: 20%;
-}
-
 
 .navbar-light .navbar-nav .nav-link{
   color: white;
@@ -29,17 +23,10 @@ body {
 }
 
 #location{
-  padding-top: 20px;
+  padding: 20px;
   background-color: #B3B6B7;
 }
 
-#location-details .a{
-  color: #900c3f;
-}
-
-span .nav-bar-toggler-icon{
-  color: white;
-}
 
 .navbar {
   width: 100%;
@@ -49,9 +36,32 @@ span .nav-bar-toggler-icon{
   background-color: #581845;
 }
 
-.main-img {
+#intro {
     width: 100%;
-    height: 200px;
+    height: 95%;
     background-image: url('../img/GRAD.jpg');
     background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#map{
+  height: 150px;
+  width: 100%;
+  float: right;
+}
+
+@media only screen and (min-width:970px) {
+  #map{
+    height: 400px;
+  }
+}
+
+.location-address{
+  text-align: center;
+}
+
+@media only screen and (min-width:970px) {
+  .location-address{
+    text-align: left;
+  }
 }
