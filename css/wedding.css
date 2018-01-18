@@ -1,4 +1,4 @@
-html, body,div {
+html, body {
   height: 100%;
   width: 100%;
   border: none;
@@ -50,7 +50,7 @@ body {
   float: right;
 }
 
-@media only screen and (min-width:970px) {
+@media only screen and (min-width:750px) {
   #map{
     height: 400px;
   }
@@ -60,7 +60,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (min-width:970px) {
+@media only screen and (min-width:750px) {
   .location-address{
     text-align: left;
   }
