@@ -53,18 +53,24 @@
 </section>
 
 <section id=location>
-      <div class=row>
+  <div class="container-fluid">
+          <div class=row>
         <div class='col-12 col-md-6' text-right>
           <div class='location-map' id='map'>
             <script>
               function initMap() {
-                var uluru = {lat: -25.363, lng: 131.044};
+                var reception = {lat: +56.702, lng: -3.719};
+                var wedding = {lat: +56.704, lng: -3.733}
                 var map = new google.maps.Map(document.getElementById('map'), {
-                  zoom: 4,
-                  center: uluru
+                  zoom: 13,
+                  center: reception
                 });
                 var marker = new google.maps.Marker({
-                  position: uluru,
+                  position: reception,
+                  map: map
+                });
+                var marker = new google.maps.Marker({
+                  position: wedding,
                   map: map
                 });
               }
@@ -90,6 +96,7 @@
           </div>
         </div>
       </div>
+    </div>
 </section>
 
     <div id="schedule">
